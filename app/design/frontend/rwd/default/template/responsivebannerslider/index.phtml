@@ -1,0 +1,34 @@
+<?php    $slide_status=$this->getResponsivebannersliderEnabled();   ?>
+<?php    $slide_speed=$this->getResponsivebannersliderSpeed();   ?>
+<?php    $slide_type=$this->getResponsivebannerSlideType(); ?>
+<?php    $slide_BannerLoop=$this->getResponsivebannerBannerLoop(); ?>
+<?php    $slide_PauseOnhover=$this->getResponsivebannerPauseOnhover(); ?>
+<?php 
+$connection = Mage::getSingleton('core/resource')->getConnection('core_write');
+$prefix = Mage::getConfig()->getTablePrefix();
+$tblname=$prefix.'mksresponsivebannerslider';
+$sql = $connection->query("select * from $tblname where status='0'  ORDER BY imageorder ASC ");
+?>
+<div style="width:100%;margin:0px auto;">
+<ul class="bxslider-banner"><?php 
+while($row1 = $sql->fetch())
+{
+$title = $row1["title"];
+$description = $row1["description"]; 
+$urlx = $row1["image"]; 
+$media_url =  Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA);
+$imgurl=$media_url.$urlx;
+$url = $row1["url"]; ?>
+<li style="margin-left:0px;">
+<a  href="<?php echo $url; ?>">
+<img  src="<?php echo $imgurl; ?>" alt="<?php echo $title; ?>" title="<?php echo $title; ?>">
+</a>
+</li>
+<?php }
+?>
+</ul>
+</div>
+<script src="<?php echo $this->getSkinUrl('js/jquery.bxslider.min.js');?>"></script>
+<script>
+jQuery('.bxslider-banner').bxSlider();
+</script>

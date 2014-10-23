@@ -1,0 +1,206 @@
+2014-10-11T11:26:34+00:00 DEBUG (7): Array
+(
+    [0] => us1.api.mailchimp.com
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:34+00:00 DEBUG (7): Array
+(
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:34+00:00 DEBUG (7): Array
+(
+    [0] => getAccountDetails
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:34+00:00 DEBUG (7): Array
+(
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:35+00:00 DEBUG (7): Array
+(
+    [0] => 
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:35+00:00 DEBUG (7): Array
+(
+    [0] => Error: You must specify a apikey value for the getAccountDetails method, code -90
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:35+00:00 DEBUG (7): Array
+(
+    [0] => us1.api.mailchimp.com
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:35+00:00 DEBUG (7): Array
+(
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:35+00:00 DEBUG (7): Array
+(
+    [0] => lists
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:35+00:00 DEBUG (7): Array
+(
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:36+00:00 DEBUG (7): Array
+(
+    [0] => 
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:36+00:00 DEBUG (7): Array
+(
+    [0] => Error: You must specify a apikey value for the lists method, code -90
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:36+00:00 DEBUG (7): Array
+(
+    [0] => us1.api.mailchimp.com
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:36+00:00 DEBUG (7): Array
+(
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:36+00:00 DEBUG (7): Array
+(
+    [0] => listInterestGroupings
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:36+00:00 DEBUG (7): Array
+(
+    [0] => 
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:37+00:00 DEBUG (7): Array
+(
+    [0] => 
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:37+00:00 DEBUG (7): Array
+(
+    [0] => Error: You must specify a apikey value for the listInterestGroupings method, code -90
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:37+00:00 DEBUG (7): Array
+(
+    [0] => us1.api.mailchimp.com
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:37+00:00 DEBUG (7): Array
+(
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:37+00:00 DEBUG (7): Array
+(
+    [0] => getAccountDetails
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:37+00:00 DEBUG (7): Array
+(
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:38+00:00 DEBUG (7): Array
+(
+    [0] => 
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:38+00:00 DEBUG (7): Array
+(
+    [0] => Error: You must specify a apikey value for the getAccountDetails method, code -90
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:38+00:00 DEBUG (7): Array
+(
+    [0] => us1.api.mailchimp.com
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:38+00:00 DEBUG (7): Array
+(
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:38+00:00 DEBUG (7): Array
+(
+    [0] => ping
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:38+00:00 DEBUG (7): Array
+(
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:39+00:00 DEBUG (7): Array
+(
+    [0] => 
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:39+00:00 DEBUG (7): Array
+(
+    [0] => Error: You must specify a apikey value for the ping method, code -90
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:41+00:00 DEBUG (7): Array
+(
+    [0] => us1.api.mailchimp.com
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:41+00:00 DEBUG (7): Array
+(
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:41+00:00 DEBUG (7): Array
+(
+    [0] => listInterestGroupings
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:41+00:00 DEBUG (7): Array
+(
+    [0] => 
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:41+00:00 DEBUG (7): Array
+(
+    [0] => 
+    [__pid] => 18191
+)
+
+2014-10-11T11:26:41+00:00 DEBUG (7): Array
+(
+    [0] => Error: You must specify a apikey value for the listInterestGroupings method, code -90
+    [__pid] => 18191
+)
+
