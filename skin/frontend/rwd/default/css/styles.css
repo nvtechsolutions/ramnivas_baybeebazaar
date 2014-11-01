@@ -133,7 +133,7 @@ html {
  * Removes default margin.
  */
 body {
-  margin: 0; font-family:Arial, Helvetica, sans-serif;
+  margin: 0; font-family:"RobotoRegular";
 }
 
 /* ==========================================================================
@@ -533,7 +533,7 @@ input,
 select,
 table,
 textarea {
-  font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family:"RobotoRegular";
   color: #636363;
   font-size: 14px;
   line-height: 1.5;
@@ -545,8 +545,8 @@ a {
 }
 
 a:hover {
-  color: #0000ff;
-  text-decoration: underline;
+ /* color: #0000ff;
+  text-decoration: underline;*/
 }
 
 a:focus {
@@ -568,7 +568,7 @@ h1, .h1 {
   margin: 0;
   margin-bottom: 0.7em;
   color: #3399cc;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family:"RobotoRegular";
   font-size: 28px;
   font-weight: 400;
   font-style: normal;
@@ -581,7 +581,7 @@ h2, .h2 {
   margin: 0;
   margin-bottom: 0.5em;
   color: #636363;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family:"RobotoRegular";
   font-size: 24px;
   font-weight: 400;
   font-style: normal;
@@ -594,7 +594,7 @@ h3, .h3 {
   margin: 0;
   margin-bottom: 10px;
   color: #636363;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family:"RobotoRegular";
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
@@ -607,7 +607,7 @@ h4, .h4 {
   margin: 0;
   margin-bottom: 10px;
   color: #636363;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family:"RobotoRegular";
   font-size: 14px;
   font-weight: bold;
   font-style: normal;
@@ -620,7 +620,7 @@ h5, .h5 {
   margin: 0;
   margin-bottom: 10px;
   color: #636363;
-  font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family:"RobotoRegular";
   font-size: 13px;
   font-weight: bold;
   font-style: normal;
@@ -633,7 +633,7 @@ h6, .h6 {
   margin: 0;
   margin-bottom: 5px;
   color: #636363;
-  font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
+ font-family:"RobotoRegular";
   font-size: 12px;
   font-weight: bold;
   font-style: normal;
@@ -714,7 +714,7 @@ h6, .h6 {
   margin: 0;
   margin-bottom: 10px;
   color: #636363;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+ font-family:"RobotoRegular";
   font-size: 14px;
   font-weight: bold;
   font-style: normal;
@@ -783,30 +783,29 @@ body:not(.customer-account) .block:first-child .block-title {
 /************header menu***********************/
 #header-nav #custommenu .menu .parentMenu a{ color:#999999;border-top:1px solid #fff; border-left:1px solid #fff; border-right:1px solid #fff; }
 .main-container,
-  .footer-container {padding:0px !important;}
+  .footer-container {/*padding:0px !important;*/}
 #header-nav #custommenu .menu .parentMenu a:hover{border-top:1px solid #ccc; border-left:1px solid #ccc; border-right:1px solid #ccc;}
 .wp-custom-menu-popup .itemMenuName{margin:0; padding: 0 !important;}
 #header-nav #custommenu .menu .parentMenu a:hover{background:#fff;}
 #header-nav #custommenu .menu .parentMenu a:after{ background-color: rgba(253, 253, 253, 0.98); }
 .footer .block-title strong{color:#444546;  font-weight:300px; text-transform: capitalize; font-size: 15px;}
 .wp-custom-menu-popup .itemMenuName span:hover{background:#fff;}
-.wp-custom-menu-popup .itemMenuName span{color:#444546; font-weight:500px; font-size:11px; text-transform: uppercase; display: block; text-decoration: none; margin: 0; padding: 0;}
-.wp-custom-menu-popup .itemMenu .itemSubMenu span{color:#697071;  display: block; font-size:12px; text-transform: capitalize; line-height: 20px; text-decoration: under-line;}
+.wp-custom-menu-popup .itemMenuName span{color:#444546; font-family:"RobotoRegular"; font-weight:bold; font-size:11px; text-transform: uppercase; display: block; text-decoration: none; margin: 0; padding: 0;}
+.wp-custom-menu-popup .itemMenu .itemSubMenu span{color:#697071;  display: block; font-weight:normal; font-size:12px; text-transform: capitalize; line-height: 20px; text-decoration: under-line;}
 .col1-layout .col-main h2.subtitle{color:#333; font-size:20px; font-weight:normal;}
-.footer-container .footer .block-title{border-top:none;  border-bottom: 1px solid #c6c6c7;
+.footer-container .footer .block-title{border-top:none;  border-bottom: 1px solid #c6c6c7; font-family:"RobotoRegular"; 
     color: #444546;
     font-size: 20px;
     font-weight: 300;
-    margin-bottom: 10px;
-    margin-top: 15px;
+   margin-top: 15px;
     padding-bottom: 5px;}
 .std .bx-wrapper .bxslider li:first-child{margin-left:0px;}
 .product-view .product-shop .price-info .price-box{margin:0;}	
 .product-secondary .add-to-links li{display:inline-block;} 	
-.std .bx-wrapper .bxslider li{text-align:center; border:1px solid #e7e7e7; width:230px !important;}
+.std .bx-wrapper .bxslider li{text-align:center; border:1px solid #e7e7e7; width:210px !important;}
 .std .bx-wrapper .bxslider li a{margin:10px 10px 0; border:none;}
 .std .bx-wrapper .bxslider li a imh:hover{border:none;}	
-.quick-access .links li.myAccount span{background:url(../images/sprite.png) no-repeat -17px -36px; display:inline-block; width:21px; height:21px; vertical-align:middle; }
+.quick-access .links li.myAccount span{background:url(../images/sprite.png) no-repeat -17px -36px; display:inline-block; width:23px; height:21px; vertical-align:middle; }
 .quick-access .links li.myCart span{background:url(../images/sprite.png) no-repeat -48px -37px; display:inline-block; width:20px; height:20px; vertical-align:middle; }
 .quick-access .links li.myWishlist span{background:url(../images/sprite.png) no-repeat -75px -37px; display:inline-block; width:20px; height:20px; vertical-align:middle; }
 .quick-access .links li.checkOut span{background:url(../images/sprite.png) no-repeat -100px -37px; display:inline-block; width:20px; height:20px; vertical-align:middle; }
@@ -816,12 +815,12 @@ body:not(.customer-account) .block:first-child .block-title {
      margin: 0px 0 0;
     min-width: 545px;
     padding-left: 8px;}
-	#popup3{top:43px !important;}	
+	#popup3{top:37px !important;}	
 .page-header .links li{height: 25px; display:inline-block;
     padding: 0 25px 0 0;}
-.page-header .quick-access{ text-align:right; padding-bottom:10px; /*border:1px solid; background:#003300;*/}
+.page-header .quick-access{ text-align:right; padding-bottom:3px; /*border:1px solid; background:#003300;*/}
 .page-header .links li:last-child{padding-right:0px;}	
-.page-header .links li a b{font-weight:bold;}	
+.page-header .links li a b{font-family:"RobotoRegular"; font-weight:normal;}	
 .page-header .links li a{color: #999999;
     display: inline-block;
     height: inherit;
@@ -829,11 +828,13 @@ body:not(.customer-account) .block:first-child .block-title {
     vertical-align: middle; text-decoration:none; cursor:pointer; font-size:12px; font-family:Arial;}	
 .myaccunt{right:0;}
 .bx-wrapper .bx-viewport .bxslider-banner{padding:0px;}
-.bx-wrapper{max-width:100% !important; padding:16px 0 0;}
-.subtitle{/*background:url(../images/horizontals_bar.png) no-repeat;*/ border:1px solid #333; width:100%; display:block; height:40px;}
+.bx-wrapper{max-width:1200px !important; padding:16px 0 0;}
+.fixed{margin-top:-125px !important;}
+.subtitle{/*background:url(../images/horizontals_bar.png) no-repeat;*/ border:1px solid #333; max-width:1200px;  margin:0 auto; display:block; height:40px;}
 .bx-wrapper .bx-viewport .bxslider li{ text-align:center; margin-bottom:15px !important;}
-.bxslider li .product-name a{color:#333; text-transform:capitalize; font-size:14px;}
+.bxslider li .product-name a{color:#333; text-transform:capitalize; font-size:14px; font-family:"RobotoRegular";}
 .bxslider li .price-box span{font-size:12px;}
+.bx-wrapper .bx-viewport{max-width:1200px !important; margin:0 auto;}
 
 
 .product-view .product-shop{background: none repeat scroll 0 0 #fff;
@@ -845,8 +846,8 @@ body:not(.customer-account) .block:first-child .block-title {
 .product-view .product-img-box{
 float: left;
     max-height: 630px;
-    max-width: 530px;
-    width: 100%;
+    max-width: 495px;
+    width: 100%;'
 	padding-right:0px;
 }
 .col1-layout .product-view .product-img-box .product-image-gallery, .galleria-stage{
@@ -854,7 +855,7 @@ border: 1px solid #ececec;
     float: right;
     padding: 1px;
     position: relative;
-    width: 431px;
+    width: 390px;
 }	
 .col1-layout .product-view .product-img-box .more-views, .galleria-thumbnails-container{
 	float: left;
@@ -870,6 +871,33 @@ border: 1px solid #ececec;
 .product-view .product-shop .extra-info, .product-view .product-shop .price-info{width:100%; display:block; float:left;}
 .category-products .product-info .actions .btn-cart{border-radius:4px;}
 .products-grid  li:last-child{margin-right:0px;}
+.footer{max-width:1200px !important; margin:0 auto;}
+/*.bx-wrapper ul li{min-height:290px; text-align:center;}*/
+.quick-access .skip-links .skip-account,.quick-access .skip-links .header-minicart{display:none !important;}
+.quick-access .myaccunt{display:block !important;}
+.col2-left-layout{max-width:1200px; margin:0 auto;}
+.sort-by select{font-size:11px;}
+#narrow-by-list .odd{font-size:12px; font-family:"RobotoRegular";}
+#narrow-by-list .last{font-size:12px; font-family:"RobotoRegular";}
+#narrow-by-list .last ol li span{ font-size:12px; text-decoration:none; font-family:"RobotoRegular";}
+#narrow-by-list .last ol li a:hover{color:#666; font-family:"RobotoRegular";}
+.main-container .page-title{margin:10px 0 0;}
+.main-container .page-title h1{padding-bottom:10px; margin-bottom:0px; border-bottom:0px;}
+.cart-table .btn-update,.cart-table .btn-continue{background:#0000ff; padding:0 8px; font-size:12px; border-radius:4px;}
+.cart-table .btn-update span span,.cart-table .btn-continue span span{color:#fff;}
+.contacts-index-index textarea{width:363px;}
+.col2-set .content h2{font-size:20px; text-transform:capitalize;}
+.customer-account-login .form-list .input-text{width:412px;}
+.customer-account-login .form-list a.f-left{font-size:12px;}
+
+/***********account section****************/
+.block-account{border:1px solid #ccc; border-radius:6px; text-align:center;}
+.block-account .block-title{border-bottom:1px solid #ccc; padding:10px 15px !important;}
+.block-account .block-content ul li{border-bottom:1px solid #ccc; padding:5px;}
+.block-account .block-content ul li:last-child{border-bottom:0;}
+.customer-account .col-main{border:1px solid #ccc; border-radius:6px; padding:10px !important;}
+.my-account .buttons-set button.button{min-width:62px !important; border-radius:4px;}
+.customer-account .form-list select{width:365px !important;}
 
 @media only screen and (max-width: 770px) {
   .sidebar .block:not(.block-layered-nav) {
@@ -991,7 +1019,7 @@ border: 1px solid #ececec;
 .block-account li,
 .block-cms-menu li {
   text-transform: uppercase;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family:"RobotoRegular";
   margin: 7px 0;
 }
 .block-account li strong,
@@ -1055,10 +1083,10 @@ border: 1px solid #ececec;
   color: #FFFFFF;
   font-size: 13px;
   font-weight: normal;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family:"RobotoRegular";
   line-height: 19px;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: capitalize;
   vertical-align: middle;
   white-space: nowrap;
 }
@@ -1066,7 +1094,7 @@ border: 1px solid #ececec;
 .cart-table .product-cart-actions .button:hover,
 #co-shipping-method-form .buttons-set .button:hover,
 .footer .button:hover {
-  background: #2e8ab8;
+  /*background: #2e8ab8;*/
   cursor: pointer;
 }
 .button:active,
@@ -1123,17 +1151,19 @@ a.button:hover {
 .button2 span span {
   line-height: 30px;
   height: 30px;
-  text-decoration: underline;
-  text-transform: uppercase;
+ 
+  text-transform: capitalize;
   display: inline-block;
   color: #3399cc;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+ 
 }
 .button2 span:hover,
 .button2 span span:hover {
   text-decoration: none;
   color: #246b8f;
 }
+.quick-access .skip-links .skip-account,.quick-access .skip-links .header-minicart{display:block;}
+.quick-access .myaccunt{display:none;}
 
 @media only screen and (max-width: 770px) {
   .col2-set .buttons-set .button,
@@ -1268,15 +1298,16 @@ a.button:hover {
  */
 .breadcrumbs {
   overflow: hidden;
-  margin: 0px 0 15px;
+  margin: 5px 0 5px;
 }
 
 .breadcrumbs li {
   float: left;
   font-size: 12px;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family:"RobotoRegular";
   text-transform: uppercase;
 }
+.breadcrumbs li:hover{text-decoration:none;}
 
 .breadcrumbs a {
   float: left;
@@ -1289,7 +1320,7 @@ a.button:hover {
 
 .breadcrumbs strong {
   color: #636363;
-  font-weight: normal;
+  font-weight: normal; font-family:"RobotoRegular";
 }
 
 .breadcrumbs span {
@@ -1340,7 +1371,7 @@ a.button:hover {
 }
 
 .btn-remove2 {
-  background-position: 4px -648px;
+  background:url(../images/delete_icon.png) no-repeat; 
   border: none;
   vertical-align: top;
 }
@@ -1437,7 +1468,7 @@ a.button:hover {
 @media only screen and (min-width: 480px) {
   .main-container,
   .footer-container {
-    padding: 30px;
+    padding: 0px 30px 30px 30px; max-width:1200px; margin:0 auto;
   }
 }
 .footer-container {
@@ -1872,7 +1903,7 @@ a.button:hover {
  */
 .price-box {
   margin: 7px 0;
-  font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family:"RobotoRegular";
 }
 
 .price-box p {
@@ -1891,13 +1922,13 @@ a.button:hover {
 .price-box .price,
 .price {
   white-space: nowrap;
-  font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family:"RobotoRegular";
 }
 
 .price-box .price-label {
   color: #a0a0a0;
   white-space: nowrap;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family:"RobotoRegular";
 }
 
 .price-box .minimal-price-link {
@@ -1925,11 +1956,11 @@ a.button:hover {
 .price-box .special-price .price {
   display: inline-block; font-size:14px;
 }
-.price-box .regular-price .price{font-size:14px;}
+.price-box .regular-price .price{font-size:14px; font-family:"RobotoRegular";}
 
 .price-box .old-price .price {
   color: #a0a0a0;
-  text-decoration: line-through; 
+  text-decoration: line-through;  font-family:"RobotoRegular";
 }
 
 .price-box .special-price {
@@ -2214,7 +2245,7 @@ a.button:hover {
 
 .toolbar,
 .pager {
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family:"RobotoRegular";
   color: #636363;
   line-height: 30px;
   font-size: 12px;
@@ -2232,7 +2263,7 @@ a.button:hover {
 }
 .sorter label {
   float: left;
-  margin-right: 5px;
+  margin-right: 5px; font-size:11px;font-family:"RobotoRegular";
 }
 .sorter label:after {
   content: ':';
@@ -2295,7 +2326,7 @@ a.button:hover {
 }
 .pager .amount {
   float: left;
-  font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family:"RobotoRegular";
   white-space: nowrap;
   margin: 0 15px 0 0;
 }
@@ -2305,7 +2336,7 @@ a.button:hover {
   line-height: 30px;
 }
 .pager .limiter > label {
-  padding-right: 5px;
+  padding-right: 5px; font-family:"RobotoRegular";
 }
 .pager .limiter > label:after {
   content: ':';
@@ -2645,7 +2676,7 @@ form .legend {
   font-style: normal;
   line-height: 1.4;
   text-rendering: optimizeSpeed;
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-bottom: 15px;
   padding-bottom: 7px;
   border-bottom: 1px solid #ededed;
@@ -2676,7 +2707,7 @@ form .legend {
 label {
   display: inline-block;
   font-size: 13px;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family:"RobotoRegular";
   font-weight: 600;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -2758,7 +2789,7 @@ textarea {
 }
 
 .input-text.validation-failed {
-  border-color: red;
+  border-color: red; font-size:14px;
 }
 
 .input-text.validation-failed:focus {
@@ -2861,8 +2892,8 @@ p.required,
 }
 .form-list select {
   margin-top: 4px;
-  width: 365px;
-  max-width: 100%;
+  width: 299px;
+  max-width: 100%; padding:4px 5px;'
 }
 .form-list .input-range .input-text {
   width: 74px;
@@ -3545,7 +3576,7 @@ a.skip-link {
   #header-nav {
     display: block;
     /* Force visibility */
-    border-bottom: 1px solid #000; border-top:1px solid #000;
+    /*border-bottom: 1px solid #000; border-top:1px solid #000;*/ border:1px solid #000;
   }
 }
 /* ============================================ *
@@ -3745,7 +3776,7 @@ a.skip-link {
   #header-search {
     display: block;
     position: absolute;
-    top: 45px;
+    top: 35px;
     right: 0;
     width: 22%;
     height: 50px;
@@ -3767,7 +3798,7 @@ a.skip-link {
 #search {
   width: 100%;
   height: 30px;
-  padding:0 10px; width:226px; box-shadow:0 1px 0 0 #dfd8d8 inset; border:1px solid #bfbfbf; color:#646464; font-size:12px;
+  padding:0 10px; /*width:226px;*/ box-shadow:0 1px 0 0 #dfd8d8 inset; border:1px solid #bfbfbf; color:#646464; font-size:12px;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
 }
 
@@ -4092,7 +4123,7 @@ a.skip-link {
   padding: 4px 0;
 }
 .footer .links a {
-  color: #697071; text-transform: capitalize;}
+  color: #697071; text-transform: capitalize; font-family:"RobotoRegular";} 
 
  
 .footer .links a:hover {
@@ -6212,7 +6243,7 @@ p.product-name a:hover {
 .cart-forms .giftcard,
 .cart-forms .shipping {
   padding: 10px;
-  background-color: #f4f4f4;
+  background-color: #eaeaea;
   border: 1px solid #cccccc;
 }
 
@@ -6379,7 +6410,7 @@ p.product-name a:hover {
   }
 }
 .cart-table {
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family:"RobotoRegular"; border:1px solid #ccc;
 }
 .cart-table th,
 .cart-table td,
@@ -6807,7 +6838,7 @@ p.product-name a:hover {
   border-bottom: 1px solid #E6E6E6;
 }
 .cart .cart-totals table tfoot td {
-  font-size: 24px;
+  font-size: 20px;
   padding: 2px 5px;
   vertical-align: top;
 }
@@ -7680,7 +7711,7 @@ body:not(.opc-has-progressed-from-login) .opc.opc-firststep-login .section#opc-l
 .customer-account-login .col2-set .buttons-set button,
 .customer-account-login .col2-set .buttons-set .button {
   float: none;
-  min-width: 50%;
+  min-width: 20%;
   margin: 0;
 }
 .customer-account-login .col2-set .col-1 ul {
@@ -7731,8 +7762,9 @@ body:not(.opc-has-progressed-from-login) .opc.opc-firststep-login .section#opc-l
 }
 
 .opc #opc-login p:not(.required) {
+
   font-style: italic;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family:"RobotoRegular";
   font-size: 13px;
   color: #a0a0a0;
 }
@@ -7838,7 +7870,7 @@ body.customer-account .my-account .addresses-list h3 {
   font-weight: 600;
 }
 body.customer-account .my-account .fieldset {
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 30px;
 }
 body.customer-account .data-table {

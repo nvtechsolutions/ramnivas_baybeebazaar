@@ -1,6 +1,7 @@
- .side-feedback{ border:none; left: 0px; padding: 0px; position: fixed; top: 315px;  width: 40px; height:117px; z-index:9;}
- .side-feedback a{ height:100%; width:100%; float:left;background:url(../images/feedbacktab.png) no-repeat -10px 0; z-index:200;}
- .side-feedback a:hover{ height:100%; width:100%; float:left;background:url(../images/feedbacktab.png) no-repeat -6px 0; z-index:200;}
+ .side-feedback{ border:none; right: 0px; padding: 0px; position: fixed; top: 315px;  width: 40px; height:117px; z-index:9;}
+ 
+ .side-feedback a:hover{ height:100%; width:100%; float:right;background:url(../images/feedbacktab.png) no-repeat 0px -3px; z-index:200;}
+ .side-feedback a{ height:100%; width:100%; float:left;background:url(../images/feedbacktab.png) no-repeat 10px 0px; z-index:200;}
 
   .background-opacity { background: none repeat scroll 0 0 #000000; display: none; height: 100%; left: 0; opacity: 0.7; filter:alpha(opacity=70); position: fixed; top: 0; width: 100%; z-index: 9999;}
  .feedback_close {color: #000000; float: right; font: bold 20px arial; margin: 10px 10px 0 0; text-decoration: none;}

@@ -18,7 +18,7 @@ div.menu {
 }
 div.menu a:link, div.menu a:visited {
     display: block;
-    height: 40px;
+    height: 35px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -26,10 +26,10 @@ div.menu a span {
     display: block;
     height: 28px;
     padding-right: 0px;
-    padding-top: 9px;
-	font-size:13px;
+    padding-top: 6px;
+	font-size:14px;
 	text-transform:uppercase;
-	color:#444546; font-size:14px; font-weight:bold;
+	color:#444546; font-family:"RobotoRegular";
 }
 div.menu a span:hover {
     cursor: pointer;
@@ -70,7 +70,7 @@ div.block2 {
 }
 a.level1:link, a.level1:visited {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
     padding: 5px 10px;
     border-radius: 2px;
 }
